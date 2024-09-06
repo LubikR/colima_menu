@@ -20,7 +20,7 @@ struct Colima_menuApp: App {
     
     struct AppMenu: View {
         func action1() {
-            _ = run(with: "colima start")
+            _ = run(with: "colima start --network-address")
             getState()
         }
         func action2() {
